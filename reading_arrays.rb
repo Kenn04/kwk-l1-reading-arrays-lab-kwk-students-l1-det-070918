@@ -30,5 +30,5 @@ puts student_names.last
 end
 def first_second_and_third_students
   # Write a solution that returns the first, second and third students
-puts student_names[0,3,4]
+puts student_names["Adele", "Beyoncé", "Cardi B"]
 end
