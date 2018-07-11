@@ -13,22 +13,22 @@ def first_student_by_index
 end
 def fourth_student_by_index
   # Write a solution that returns the first student in the array student_names
-  puts student_name[3]
+  puts student_names[3]
 end
 
 def last_student_by_index
   # Write a solution that returns the first student in the array student_names
-puts student_name[5]
+puts student_names[5]
 end
 def first_student_by_method
   # Write a solution that returns the first student using the built in .first method
-puts student_name.first
+puts student_names.first
 end
 def last_student_by_method
   # Write a solution that returns the first student using the built in .last method
-puts student_name.last
+puts student_names.last
 end
 def first_second_and_third_students
   # Write a solution that returns the first, second and third students
-puts student_names
+puts student_names[0,3,4]
 end
